@@ -420,7 +420,7 @@ SetFontSize 40
 # Salvagable Items
 #--------------------------
 
-Show
+Hide
 Sockets > 0
 Rarity Normal
 SetBorderColor 200 200 200
@@ -432,7 +432,7 @@ Rarity Normal
 SetBorderColor 200 200 200
 SetFontSize 35
 
-Show
+Hide
 Sockets > 0
 Rarity Magic
 SetBorderColor 0 0 200
