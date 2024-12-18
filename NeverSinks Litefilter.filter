@@ -361,7 +361,7 @@ SetFontSize 40
 # Waystones
 #--------------------------
 
-Show
+Hide
 WaystoneTier < 10
 AreaLevel > 77
 BaseType "Waystone"
@@ -370,8 +370,8 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetFontSize 35
 
-Show
-WaystoneTier < 5
+Hide
+WaystoneTier < 8
 AreaLevel > 74
 BaseType "Waystone"
 Rarity <= Rare
