@@ -101,7 +101,7 @@ MinimapIcon 1 Cyan Triangle
 SetFontSize 40
 
 # Make skill gems pop during campaign
-Show
+Hide
 AreaLevel < 65
 BaseType "Uncut Skill Gem"
 SetTextColor 20 240 240
@@ -112,8 +112,8 @@ MinimapIcon 1 Cyan Triangle
 SetFontSize 40
 
 # Gems up to level 18 in maps don't get a special highlight
-Show
-ItemLevel <= 18
+Hide
+ItemLevel <= 17
 BaseType "Uncut Skill Gem"
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
