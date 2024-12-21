@@ -113,13 +113,13 @@ SetFontSize 40
 
 # Gems up to level 18 in maps don't get a special highlight
 Hide
-ItemLevel <= 17
+ItemLevel <= 18
 BaseType "Uncut Skill Gem"
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
 SetFontSize 35
 
-Show
+Hide
 BaseType "Uncut Support Gem"
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
