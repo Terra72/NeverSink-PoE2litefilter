@@ -362,8 +362,8 @@ SetFontSize 40
 #--------------------------
 
 Hide
-WaystoneTier < 10
-AreaLevel > 77
+WaystoneTier < 15
+AreaLevel > 71
 BaseType "Waystone"
 Rarity <= Rare
 SetTextColor 255 255 255
@@ -372,7 +372,7 @@ SetFontSize 35
 
 Hide
 WaystoneTier < 8
-AreaLevel > 74
+AreaLevel > 71
 BaseType "Waystone"
 Rarity <= Rare
 SetTextColor 255 255 255
@@ -408,11 +408,21 @@ MinimapIcon 1 Yellow Diamond
 
 Show
 Rarity Normal
-Class "Rings" "Amulets" "Belts"
+Class "Rings" "Amulets"
+SetFontSize 40
+
+Hide
+Rarity Normal
+Class "Belts"
 SetFontSize 40
 
 Show
-Class "Rings" "Amulets" "Belts"
+Class "Rings" "Amulets"
+Rarity Magic
+SetFontSize 40
+
+Hide
+Class "Belts"
 Rarity Magic
 SetFontSize 40
 
@@ -426,7 +436,7 @@ Rarity Normal
 SetBorderColor 200 200 200
 SetFontSize 35
 
-Show
+Hide
 Quality > 0
 Rarity Normal
 SetBorderColor 200 200 200
@@ -438,7 +448,7 @@ Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 35
 
-Show
+Hide
 Quality > 0
 Rarity Magic
 SetBorderColor 0 0 200
@@ -448,7 +458,7 @@ SetFontSize 35
 # Random Rares
 #--------------------------
 
-## Uncomment this rule to hide low level rares in high level zones
+## Uncomment this rule to Hide low level rares in high level zones
 
 # Hide
 # Rarity Rare
@@ -461,7 +471,7 @@ Rarity Rare
 SetFontSize 35
 
 #--------------------------
-# Hide Rules (only high level), super light edition
+# Hide Rules (only high level), super light edition gogo
 #--------------------------
 
 Hide
@@ -469,6 +479,11 @@ Quality = 0
 AreaLevel > 70
 Rarity <= Magic
 Class "Flasks"
+
+Hide
+AreaLevel >= 50
+Rarity <= Magic
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Bows" "Crossbows" "Wands" "Sceptres"
 
 Hide
 AreaLevel >= 78
